@@ -1,0 +1,10 @@
+body {
+   background-image: url('../src/assets/cielo.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+}
+
+.App {
+   text-align: center;
+};

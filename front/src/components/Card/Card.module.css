@@ -1,0 +1,27 @@
+.card {
+  background-color: rgba(0, 70, 50, 0.7);
+  width: fit-content;
+  padding: 1em;
+  position: relative;
+  transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  
+}
+.card:hover {
+  background-image: linear-gradient(to top right, #2cd84b, #1b4120);
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 31px 2px rgba(0,255,10,1);
+}
+
+.onClick {
+  position: absolute;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(158, 33, 33);
+  right: 25px;
+  top: 25px;
+}
